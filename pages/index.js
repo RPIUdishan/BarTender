@@ -1,8 +1,11 @@
 import { useState } from "react"
+import BoxDrink from "../components/boxDrink"
 import Header from "../components/header"
+import ItemsContainer from "../components/itemsContainer"
 import MainImages from "../components/mainImages"
 import Search from "../components/search"
 import Test from "../pages/api/test"
+
 
 export default function Home() {
 
@@ -24,6 +27,7 @@ export default function Home() {
         <Search />
       </div>
       {/* <button type="button" onClick={com}>asdfasdasfd</button> */}
+      {/* <ItemsContainer /> */}
     </div>
   )
 }
