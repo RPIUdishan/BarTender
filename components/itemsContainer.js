@@ -18,12 +18,12 @@ const itemsContainer = ({ items }) => {
                     </div>
                 </div>
                 <div className='grid grid-cols-4 items-center justify-between'>
-                    {
-                        items.map(item => (
-                            <>
-                                <BoxDrink key={item.id} src={item.src} title={item.title} category={item.category} />
-                            </>
-                        ))
+                    {items ? items.length > 0 ?  (items.map(item => (
+                            <div key={item.idDrink}>
+                                <BoxDrink  src={item.strDrinkThumb} title={item.strDrink} category={item.strCategory} />
+                            </div>
+                        ))) : null:null
+                        
                     }
                 </div>
             </div>
