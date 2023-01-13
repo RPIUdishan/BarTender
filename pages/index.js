@@ -6,7 +6,7 @@ import Search from "../components/search"
 export default function Home() {
 
   return (
-    <div className="bg-[url('/bar.jpg')] bg-cover w-full h-full scroll-smooth">
+    <div className="bg-[#d26931] bg-cover w-full h-full scroll-smooth pb-2">
       <Header />
       <MainImages />
       <div className="mt-8 flex items-center justify-center">

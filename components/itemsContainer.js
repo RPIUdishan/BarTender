@@ -34,7 +34,7 @@ const itemsContainer = ({ items }) => {
                             <div key={item.idDrink}>
                                 <BoxDrink src={item.strDrinkThumb} title={item.strDrink} category={item.strCategory} />
                             </div>
-                        ))) : null : null
+                        ))) : null : <h3 className='text-3xl text-center font-mono font-bold'>No Data for Your Search</h3>
                         }
                     </div> :
                     <div>
