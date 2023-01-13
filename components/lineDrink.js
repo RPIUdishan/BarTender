@@ -3,7 +3,7 @@ import React from 'react'
 const lineDrink = ({ src, title, category }) => {
     return (
         <>
-            <div className='w-auto h-48 bg-black ml-80 mr-80 my-10 p-2 rounded-xl'>
+            <div className='w-auto h-48 bg-[#510578] ml-80 mr-80 my-10 p-2 rounded-xl'>
                 <div className=' inline-flex '>
                     <div>
                         <img
